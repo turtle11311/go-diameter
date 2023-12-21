@@ -17,6 +17,8 @@ const (
 	CreditControl             = 272
 	DeviceWatchdog            = 280
 	DisconnectPeer            = 282
+	LocationInfo              = 302
+	MultimediaAuth            = 303
 	MultimediaAuthentication  = 303
 	Notify                    = 323
 	PurgeUE                   = 321
@@ -27,6 +29,7 @@ const (
 	SessionTermination        = 275
 	SpendingLimit             = 8388635
 	UpdateLocation            = 316
+	UserAuthorization         = 300
 )
 
 // Short Command Names
@@ -49,6 +52,8 @@ const (
 	DPR = "DPR"
 	DWA = "DWA"
 	DWR = "DWR"
+	LIA = "LIA"
+	LIR = "LIR"
 	MAA = "MAA"
 	MAR = "MAR"
 	NOA = "NOA"
@@ -67,6 +72,8 @@ const (
 	SLR = "SLR"
 	STA = "STA"
 	STR = "STR"
+	UAA = "UAA"
+	UAR = "UAR"
 	ULA = "ULA"
 	ULR = "ULR"
 )
